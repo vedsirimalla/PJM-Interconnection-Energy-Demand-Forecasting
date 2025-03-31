@@ -5,26 +5,6 @@ This project focuses on energy demand forecasting using the **PJM Interconnectio
 
 Our analysis explores **seasonal patterns, correlations, and statistical insights** to develop accurate forecasting models that help in efficient energy distribution and planning.
 
-## 📊 Table of Contents
-1. [Introduction](#-introduction)
-2. [Dataset Description](#-dataset-description)
-3. [Exploratory Data Analysis](#-exploratory-data-analysis)
-   - Histogram Plots
-   - Time Series Plots
-   - Scatter Plots
-   - Correlation Heatmap
-4. [Summary Statistics](#-summary-statistics)
-   - Box Plots
-5. [Parameter Estimation](#-parameter-estimation)
-6. [Hypothesis Testing](#-hypothesis-testing)
-7. [Correlation Analysis](#-correlation-analysis)
-8. [Model Building](#-model-building)
-9. [ANOVA Analysis](#-anova-analysis)
-10. [Conclusion](#-conclusion)
-11. [Team Members](#-team-members)
-
----
-
 ## 📌 Introduction
 The goal of this project is to analyze and forecast energy consumption patterns for **PJM East (PJME) and PJM West (PJMW)**. This is essential for:
 - **Predicting future energy demand** for efficient power distribution.
@@ -104,11 +84,6 @@ We developed forecasting models using:
 
 ---
 
-## 📊 ANOVA Analysis
-- Used to determine significant differences in energy consumption across seasons and years.
-
----
-
 ## 📌 Conclusion
 - **Energy consumption is highly seasonal**, with peaks in **winter and summer**.
 - **PJME has significantly higher consumption** and greater fluctuations compared to PJMW.
@@ -116,29 +91,7 @@ We developed forecasting models using:
 
 ---
 
-## 👨‍💻 Team Members
-- **Vedanth Sirimalla**
-- **Sai Eshwar Gaddipati**
-- **Shachee Bhatt**
-- **Rajashekhar Manyam**
-
----
-
 ## 🚀 Future Work
 - **Improve forecasting models** using deep learning (LSTMs, GRUs).
 - **Analyze external factors** like weather conditions, economic trends, and policy changes.
 - **Deploy predictive models for real-time energy monitoring**.
-
----
-
-## 📜 License
-This project is for academic and research purposes. You are free to use the data and code for non-commercial use.
-
----
-
-## 🛠️ Setup & Usage
-To run the analysis:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/pjm-energy-forecasting.git
-   cd pjm-energy-forecasting
